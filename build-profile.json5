@@ -1,10 +1,37 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "debug",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "C:/Users/huyun/.ssh/takeArest.p12",
+          "storePassword": "0000001D21FF17C53F7B2E941906F9123C8AA1A175F8A810FE8ED4DFD980A37922069DB8E5947172E87C44DEBF",
+          "keyAlias": "res",
+          "keyPassword": "0000001D476405BD446CCB61339B0B61DF883B1BC07F47A6FD3E2C7B324576A434AEF64792B622E0B1DDAF3179",
+          "signAlg": "SHA256withECDSA",
+          "profile": "D:/git/huyunan/takeArest/harmony/takeArest_debugDebug.p7b",
+          "certpath": "D:/git/huyunan/takeArest/harmony/takeArest.cer"
+        }
+      },
+      {
+        "name": "release",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "C:/Users/huyun/.ssh/takeArest.p12",
+          "storePassword": "0000001D21FF17C53F7B2E941906F9123C8AA1A175F8A810FE8ED4DFD980A37922069DB8E5947172E87C44DEBF",
+          "keyAlias": "res",
+          "keyPassword": "0000001D476405BD446CCB61339B0B61DF883B1BC07F47A6FD3E2C7B324576A434AEF64792B622E0B1DDAF3179",
+          "signAlg": "SHA256withECDSA",
+          "profile": "D:/git/huyunan/takeArest/harmony/takeArest_releaseRelease.p7b",
+          "certpath": "D:/git/huyunan/takeArest/harmony/takeArest_release.cer"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
-        "signingConfig": "default",
+        "signingConfig": "release",
         "targetSdkVersion": "6.1.0(23)",
         "compatibleSdkVersion": "6.1.0(23)",
         "runtimeOS": "HarmonyOS",
