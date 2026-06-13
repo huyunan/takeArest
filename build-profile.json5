@@ -5,26 +5,26 @@
         "name": "debug",
         "type": "HarmonyOS",
         "material": {
-          "storeFile": "C:/Users/huyun/.ssh/takeArest.p12",
-          "storePassword": "0000001D21FF17C53F7B2E941906F9123C8AA1A175F8A810FE8ED4DFD980A37922069DB8E5947172E87C44DEBF",
-          "keyAlias": "res",
-          "keyPassword": "0000001D476405BD446CCB61339B0B61DF883B1BC07F47A6FD3E2C7B324576A434AEF64792B622E0B1DDAF3179",
+          "storeFile": "D:/git/huyunan/takeArest/harmony/takeArest.p12",
+          "storePassword": "00000019180BE83D048851231A53ECEE362692B1FB5098F21D69771BD60B6C79101398EC7E9946D38F",
+          "keyAlias": "rest",
+          "keyPassword": "000000193D6914F7F09589316BAF18E974B2426B8E91176C9D098AC3DF1B7D3812F6E911CDB9F4413B",
           "signAlg": "SHA256withECDSA",
-          "profile": "D:/git/huyunan/takeArest/harmony/takeArest_debugDebug.p7b",
-          "certpath": "D:/git/huyunan/takeArest/harmony/takeArest.cer"
+          "profile": "D:/git/huyunan/takeArest/harmony/takeArest_dDebug.p7b",
+          "certpath": "D:/git/huyunan/takeArest/harmony/takeArest_d.cer"
         }
       },
       {
         "name": "release",
         "type": "HarmonyOS",
         "material": {
-          "storeFile": "C:/Users/huyun/.ssh/takeArest.p12",
-          "storePassword": "0000001D21FF17C53F7B2E941906F9123C8AA1A175F8A810FE8ED4DFD980A37922069DB8E5947172E87C44DEBF",
-          "keyAlias": "res",
-          "keyPassword": "0000001D476405BD446CCB61339B0B61DF883B1BC07F47A6FD3E2C7B324576A434AEF64792B622E0B1DDAF3179",
+          "storeFile": "D:/git/huyunan/takeArest/harmony/takeArest.p12",
+          "storePassword": "00000019CCC24857C86787230122D75A56CC854BC1221833380078858E2226E04DFB0F419C539D0AFD",
+          "keyAlias": "rest",
+          "keyPassword": "000000196E1825E50500B6CE4C3FE6AA4EB9F6D9BE39E7B2F386444FE586379C88DC96FA26F178A998",
           "signAlg": "SHA256withECDSA",
-          "profile": "D:/git/huyunan/takeArest/harmony/takeArest_releaseRelease.p7b",
-          "certpath": "D:/git/huyunan/takeArest/harmony/takeArest_release.cer"
+          "profile": "D:/git/huyunan/takeArest/harmony/takeArest_rRelease.p7b",
+          "certpath": "D:/git/huyunan/takeArest/harmony/takeArest_r.cer"
         }
       }
     ],
